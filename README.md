@@ -20,5 +20,7 @@ Because this project accesses `HashMap`’s internal fields using reflection, yo
 java --add-opens java.base/java.util=ALL-UNNAMED -cp . com.java8.stream.HashMapTreeificationTest
 
 Alternatively, if running in an IDE, add the following JVM argument to your Run Configuration:
+
+
 --add-opens java.base/java.util=ALL-UNNAMED
 
